@@ -1,5 +1,4 @@
-
-package game;
+package tictactoe;
 
 public class Draw extends Canvas {
         public boolean isDraw() {

@@ -1,12 +1,14 @@
-
-package game;
+package tictactoe;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Number extends Canvas{
-
+public class Number extends Canvas {
+        static Number obj = new Number();
+        public static Number getInstance() {
+            return obj;
+        }
     
         public int getNumber(){
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

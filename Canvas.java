@@ -1,15 +1,14 @@
-
-package game;
+package tictactoe;
 
 public class Canvas {
-     static int [] canvas = {0,0,0,
+    static int [] canvas = {0,0,0,
                              0,0,0,
                              0,0,0};
 
-        public void drawCanvas(){
+        public void drawCanvas() {
         System.out.println("     |     |     ");
         for (int i = 0; i < canvas.length; i++) {
-            if (i!=0){
+            if (i!=0) {
                 if (i%3==0) {
                     System.out.println();
                     System.out.println("_____|_____|_____");
